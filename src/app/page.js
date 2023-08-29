@@ -1,5 +1,5 @@
 "use client";
-import { Container, Text, Title, Rating, Group, Textarea, Button, Divider, Pegination } from "@mantine/core";
+import { Container, Text, Title, Rating, Group, Textarea, Button, Divider, Pagination } from "@mantine/core";
 
 export default function FoodReviewPage() {
   return (
@@ -34,9 +34,9 @@ export default function FoodReviewPage() {
         My favourite part is pepperoni
       </Text>
 
-      <Pegination total={20} color="orange" position="center" mt="md"/>
+      <Pagination total={20} color="orange" mt="md" position="center"/>
       
-      <Text align="center" color="dimmed" my="xs">
+      <Text align="center" color="dimmed" mt="sm">
         Copyright © 2023 Korawit  Piboon 650612076
       </Text>
     </Container>
